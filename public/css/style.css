@@ -548,7 +548,7 @@ p { margin: 0 0 1em; }
 .hero__title em::after {
   content: "";
   position: absolute;
-  left: 0; right: 0; bottom: -4px;
+  left: 0; right: 0; bottom: -6px;
   height: 3px;
   background: var(--yellow);
   border-radius: 2px;
