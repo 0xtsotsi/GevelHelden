@@ -544,15 +544,14 @@ p { margin: 0 0 1em; }
   display: inline-block;
   position: relative;
 }
-/* Subtle wavy underline on the accent word */
+/* Clean straight underline on the accent word */
 .hero__title em::after {
   content: "";
   position: absolute;
-  left: 0; right: 0; bottom: -8px;
-  height: 6px;
+  left: 0; right: 0; bottom: -4px;
+  height: 3px;
   background: var(--yellow);
-  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 6' preserveAspectRatio='none'><path d='M0,3 Q12.5,0 25,3 T50,3 T75,3 T100,3' fill='none' stroke='black' stroke-width='1.5'/></svg>") no-repeat center / 100% 100%;
-          mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 6' preserveAspectRatio='none'><path d='M0,3 Q12.5,0 25,3 T50,3 T75,3 T100,3' fill='none' stroke='black' stroke-width='1.5'/></svg>") no-repeat center / 100% 100%;
+  border-radius: 2px;
 }
 .hero__sub {
   color: var(--paper);
